@@ -28,6 +28,9 @@ ul {
     padding-right: 15px;
     margin: 0 auto;
 }
+img {
+    display: block;
+}
 
 /* --------header-------- */
 .header {
@@ -243,7 +246,7 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
-    padding-bottom: 8px;
+    margin-bottom: 8px
 }
 
 .team-profession {
@@ -259,7 +262,8 @@ ul {
 
 /* -----portfolio------- */
 .portfolio {
-    padding: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .portfolio-title {
